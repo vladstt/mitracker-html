@@ -2,9 +2,17 @@ $('.ui.dropdown')
   .dropdown();
 
 $(document).ready(function() {
-  /* Trigger the modal */
+  /* Trigger add asset the modal */
   $('.add-asset').click(function() {
     $('.ui.add.modal')
+      .modal({
+        blurring: true
+      }) .modal('show');;
+  });
+  
+  /* Trigger the settings modal */
+  $('.show-account').click(function() {
+    $('.ui.account.modal')
       .modal({
         blurring: true
       }) .modal('show');;
