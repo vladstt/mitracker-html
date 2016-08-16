@@ -1,0 +1,278 @@
+.ui.form input:not([type]), 
+.ui.form input[type=text], 
+.ui.form input[type=email], 
+.ui.form input[type=search], 
+.ui.form input[type=password], 
+.ui.form input[type=date], 
+.ui.form input[type=datetime-local], 
+.ui.form input[type=tel], 
+.ui.form input[type=time], 
+.ui.form input[type=url], 
+.ui.form input[type=number] {
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.07);
+  border: 0;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 1em 1.3em;
+}
+.ui.form input:not([type]):focus, 
+.ui.form input[type=text]:focus, 
+.ui.form input[type=email]:focus, 
+.ui.form input[type=search]:focus, 
+.ui.form input[type=password]:focus, 
+.ui.form input[type=date]:focus, 
+.ui.form input[type=datetime-local]:focus, 
+.ui.form input[type=tel]:focus, 
+.ui.form input[type=time]:focus, 
+.ui.form input[type=url]:focus, 
+.ui.form input[type=number]:focus {
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.10);
+}
+.ui.bordered.form input:not([type]), 
+.ui.bordered.form input[type=text], 
+.ui.bordered.form input[type=email], 
+.ui.bordered.form input[type=search], 
+.ui.bordered.form input[type=password], 
+.ui.bordered.form input[type=date], 
+.ui.bordered.form input[type=datetime-local], 
+.ui.bordered.form input[type=tel], 
+.ui.bordered.form input[type=time], 
+.ui.bordered.form input[type=url], 
+.ui.bordered.form input[type=number] {
+  border: 1px solid #d4d4d4;
+  box-shadow: none;
+  padding: 0.70em 1.3em 0.85em;
+  font-size: 15px;
+  height: 44px;
+}
+.ui.bordered.form .ui.search.dropdown>.text {
+  font-size: 15px;
+}
+.ui.bordered.form input:not([type]):focus, 
+.ui.bordered.form input[type=text]:focus, 
+.ui.bordered.form input[type=email]:focus, 
+.ui.bordered.form input[type=search]:focus, 
+.ui.bordered.form input[type=password]:focus, 
+.ui.bordered.form input[type=date]:focus, 
+.ui.bordered.form input[type=datetime-local]:focus, 
+.ui.bordered.form input[type=tel]:focus, 
+.ui.bordered.form input[type=time]:focus, 
+.ui.bordered.form input[type=url]:focus, 
+.ui.bordered.form input[type=number]:focus {
+  border: 1px solid #999;
+}
+.ui.bordered.form label {
+  font-size: 14px;
+}
+.ui.blue.button, 
+.ui.blue.buttons .button {
+  font-size: 16px;
+  padding: 1.1em 1.3em;
+  border-radius: 6px;
+  background-color: none;
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.07);
+}
+.ui.blue.button:hover,
+.ui.blue.buttons .button:hover {
+  background-image: linear-gradient(41deg, #1c6fee 40%, #3695f3 100%);
+}
+.ui.small.blue.button,
+.ui.small.blue.buttons .button {
+  padding: 0.9em 1.5em;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+.ui.fluid.container {
+  margin: 0 !important;
+}
+.ui.left.sidebar,
+.ui.right.sidebar {
+  width: 350px;
+}
+.ui.blue {
+  background-image: linear-gradient(41deg, #1c6fee 40%, #3695f3 100%) !important;
+  color: white !important;
+}
+h1, h2, h3, h4, h5 {
+  margin: calc(2rem - .14285em) 0 2rem;
+}
+h2 {
+  font-weight: 300;
+  font-size: 24px;
+}
+h3 {
+  font-weight: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.ui.menu {
+  border: 0;
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.07);
+  background: rgba(255,255,255,.2);
+  margin-top: 0;
+}
+.ui.segment {
+  border: 0;
+  border-radius: 5px;
+}
+.ui.button {
+  background: #eee;
+}
+.ui.fluid.dropdown>.text {
+  font-weight: 400;
+}
+.ui.padded.list .list>.item, 
+.ui.padded.list>.item, 
+ol.ui.padded.list li, 
+ul.ui.padded.list li {
+  padding: .75em 0;
+}
+.ui.table thead th {
+  font-size: 12px;
+  padding: 1.15em;
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.07);
+}
+.ui.modal {
+  border: 0;
+}
+.ui.modal>.header {
+  border-bottom: 0;
+}
+.ui.table td {
+  padding: 1.15em;
+}
+.ui.table tr td {
+  border-top: 1px solid #eee;
+}
+.ui.basic.striped.table tbody tr:nth-child(2n) {
+  background: #f9f9f9 !important;
+}
+.ui.circular.contact.label, 
+.ui.circular.contact.labels .label {
+  width: 35px;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.blurring.dimmable>.dimmer {
+  background-color: rgba(0,0,0,.8);
+}
+.ui.sidebar {
+  background: #202020;
+}
+.half-faded {
+  opacity: .5;
+}
+.flex {
+  display: flex;
+}
+.flex.center {
+  align-items: center;
+}
+.nopadd {
+  padding: 0 !important;
+}
+.nowrap {
+  white-space: nowrap;
+}
+.dark.text {
+  color: #333;
+}
+.green.text {
+  color: #68bc0c;
+}
+.right.pushed {
+  margin-left: 7px !important;
+}
+.left.pushed {
+  margin-right: 7px !important;
+}
+.right.very.pushed {
+  margin-left: 20px;
+}
+
+/* Tiny Modal */
+@media only screen and (max-width: 768px) {
+  .ui.container > .ui.stackable.grid.main.menu > .column,
+  .ui.container > .ui.stackable.grid.main.menu > .row > .column a {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .mobile.flip {
+    flex-direction: column-reverse;
+  }
+  .mobile.flip .small.block {
+    width: 100% !important;
+    margin-top: 1.5rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  
+}
+@media only screen and (max-width: 1200px) {
+	.responsive.table, 
+	.responsive.table thead, 
+	.responsive.table tbody, 
+	.responsive.table th, 
+	.responsive.table td, 
+	.responsive.table tr { 
+		display: block; 
+	}
+	.responsive.table thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	.responsive.table td { 
+		border: none;
+		position: relative;
+		white-space: normal;
+		text-align: left;
+	}
+  .responsive.table td:first-child:before {
+    display: none;
+  }
+	.responsive.table td:before { 
+    position: relative;
+    width: 140px;
+    padding-right: 50px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: 300;
+    opacity: .5;
+    display: inline-block;
+	}
+	.responsive.table td:before { content: attr(data-title); }
+  .ui.basic.responsive.table tbody tr {
+    border-bottom: 0;
+  }
+  .ui.celled.table tr td:first-child, 
+  .ui.celled.table tr th:first-child {
+    border-left: 5px solid #e4e4e4 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .ui.tiny.modal {
+    width: 70.4%;
+    margin: 0em 0em 0em -35.2%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .ui.tiny.modal {
+    width: 480px;
+    margin: 0em 0em 0em -240px;
+  }
+  
+}
+@media only screen and (min-width: 1200px) {
+  .ui.tiny.modal {
+    width: 560px;
+    margin: 0em 0em 0em -280px;
+    padding: 1rem;
+  }
+}
